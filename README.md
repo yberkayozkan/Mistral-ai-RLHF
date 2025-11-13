@@ -134,7 +134,6 @@ kl_coef = 0.05
 ```
 
 ## 📝 Usage
-
 1. **Setup Environment**
    ```bash
    pip install -U bitsandbytes transformers datasets accelerate peft trl
@@ -150,11 +149,6 @@ kl_coef = 0.05
    - Execute cells sequentially in `rlhf2.ipynb`
    - Monitor training progress in the output
 
-4. **Upload to Hub**
-   ```python
-   merged_model.push_to_hub("your-username/model-name")
-   tokenizer.push_to_hub("your-username/model-name")
-   ```
 
 ## 🎓 Key Concepts
 
@@ -228,3 +222,4 @@ For questions or feedback, please open an issue in this repository.
 ---
 
 **Note**: This implementation is designed for educational purposes. For production use, consider additional safety measures and thorough evaluation.
+
